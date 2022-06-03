@@ -11,6 +11,7 @@ int main(void)
 	while (first_letter <= 'z')
 	{
 		putchar(first_letter);
+		first_letter++;
 	}
 
 	first_letter = 'A';
@@ -18,6 +19,7 @@ int main(void)
 	while (first_letter <= 'Z')
 	{
 		putchar(first_letter);
+		first_letter++;
 	}
 
 	putchar('\n');
