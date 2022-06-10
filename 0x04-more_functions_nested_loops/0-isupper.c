@@ -2,13 +2,13 @@
 /**
  * _isupper - function
  *
- * @i: parameter
+ * @c: parameter
  *
  * Return: return value
  */
-int _isupper(int i)
+int _isupper(int c)
 {
-	if (i >= 65 && i <= 90)
+	if (c >= 65 && c <= 90)
 		return (1);
 	else
 		return (0);
